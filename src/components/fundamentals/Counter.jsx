@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
+import useLocalStorage from "../hooks/Task3";
 
 const Counter = () => {
-    const [count, setCount] = useState(0);
+    const [count, setCount] = useLocalStorage("count", 0);
 
     let disableButton = false;
 
