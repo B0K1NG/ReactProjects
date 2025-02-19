@@ -7,11 +7,12 @@ import HomePage from './components/router/HomePage.jsx';
 import ProfilesPage from './components/router/ProfilesPage.jsx';
 import ProfilePage from './components/router/ProfilePage.jsx';
 import NotFoundPage from './components/router/NotFoundPage.jsx';
+import App from './App.jsx';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <HomePage />,
+    element: <App />,
     errorElement: <NotFoundPage />,
   },
   {
