@@ -15,16 +15,16 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <NotFoundPage />,
   },
-  {
-    path: '/profiles',
-    element: <ProfilesPage />,
-    children: [
-      {
-        path: '/profiles/:profileId',
-        element: <ProfilePage />,
-      },
-    ],
-  },
+  // {
+  //   path: '/profiles',
+  //   element: <ProfilesPage />,
+  //   children: [
+  //     {
+  //       path: '/profiles/:profileId',
+  //       element: <ProfilePage />,
+  //     },
+  //   ],
+  // },
   
 ]);
 
